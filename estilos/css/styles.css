@@ -1036,19 +1036,32 @@ input[type="button"] {
 
     .main__nosotros p {
         margin: 0 15px;
+        margin: 0 38px;
+        text-align: justify;
+        hyphens: auto;
     }
 
     .main__textoIzquierda {
         margin: 0 17px;
     }
 
-    .main__textoIzquierda h1, .main__textoIzquierda p {
+    .main__textoIzquierda p {
+        margin: 0 38px;
+        text-align: justify;
+        hyphens: auto;
+        margin-bottom: 20px;
+
+    }
+
+
+    .main__textoIzquierda h1{
         width: 100%;
         margin: 10px auto;
         text-align: center;
         margin-bottom: 29px;
     }
 
+   
 
     
 
@@ -1081,51 +1094,60 @@ input[type="button"] {
         justify-content: center;
     }
 
-  
-
     /* FIN DE MODA */
 
 
-    
-/* INICIO FOOD FOTOGRAPHY */
+        
+
+
+    /* INICIO FOOD FOTOGRAPHY */
 
 
 
-.fondoComida {
-	display: flex;
-	justify-content: end;
-}
+    .fondoComida {
+        display: flex;
+        justify-content: end;
+    }
 
 
 
-.fondoComida .fondoComida__texto {
-	width: 40%;
-	color: #ffffff;
-	margin-left: 200px;
-	display: flex;  
-}
+    .fondoComida .fondoComida__texto {
+        width: 40%;
+        color: #ffffff;
+        margin-left: 200px;
+        display: flex;  
+    }
 
-.fondoComida__texto h1,
-.fondoComida__texto p {
-    display: none;
-    
-}
+    .fondoComida__texto h1,
+    .fondoComida__texto p {
+        display: none;
+        
+    }
 
-input[type="button"] {
-	width: 90%;
-	margin: 0 auto;
-    margin-bottom: 18px;
-}
-
-
+    input[type="button"] {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 18px;
+    }
 
 
 
+    /* FIN FOOD FOTOGRAPHY */
 
+    /* INICIO RETRATOS */
 
-/* FIN FOOD FOTOGRAPHY */
+    .retratos .retratos__fotos .retratos__imagen img {
+        width: 100%;
+    }
 
+    .retratos .retratos__texto h1 {
+        font-size: 0.9rem;
+    }
 
+    .retratos .retratos__texto p {
+        text-align: justify;
+        hyphens: auto;
+    }
 
 }
 
