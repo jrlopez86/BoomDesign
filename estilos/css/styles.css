@@ -782,12 +782,7 @@ footer {
     }
     
     .main__nosotros {
-        align-content: center;
         grid-area: titulo;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
         text-align: center;
         margin: 0 auto;
     }
@@ -825,12 +820,6 @@ footer {
 
 
 .fondoComida .fondoComida__texto {
-	width: 40%;
-	color: #ffffff;
-	margin-left: 200px;
-	display: flex;
-	flex-direction: column;
-    text-align: justify;
     margin-right: -151px;
 }
 
@@ -839,7 +828,6 @@ footer {
 input[type="button"] {
 	width: 90%;
 	margin: 0 auto;
-	/* margin-bottom: ; */
 	position: absolute;
 	bottom: 6px;
 	left: 0px;
@@ -847,8 +835,15 @@ input[type="button"] {
 }
 
 
-    
-   
+
+
+/* INICIO RETRATOS */
+
+.retratos .retratos__fotos .retratos__imagen img {
+	width: 281px;
+}
+
+/* FIN RETRATOS */
 }
 
 
@@ -929,26 +924,12 @@ input[type="button"] {
         display: flex;
     }
     
-    .footer {
-        position: relative;
-        width: 100%;
-        text-align: center;
-        height: 0px;
-        color: #ffff;
-        font-size: 0.8rem;
-        display: flex;
-        justify-content: center;
-    }
 
     .footer {
         height: 100px;
     }
 
     .footer .footer__caja {
-        display: flex;
-        justify-content: space-between;
-        position: relative;
-        width: 64%;
         height: 0px;
         top: 0px;
     }
@@ -968,11 +949,6 @@ input[type="button"] {
         margin: 38px auto;
     }
     
-    .footer .footerDos__redes-sociales .footerDos__icono {
-        margin: 0 0.313rem;
-        background-color: hsl(205, 52%, 17%);
-        width: 26px;
-    }
 
       /* FIN INDEX */
 
@@ -1046,7 +1022,7 @@ input[type="button"] {
     }
 
     .main__textoIzquierda p {
-        margin: 0 38px;
+        width: 84%;
         text-align: justify;
         hyphens: auto;
         margin-bottom: 20px;
