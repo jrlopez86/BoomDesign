@@ -379,10 +379,15 @@ input[type="button"]:hover {
 .retratos .retratos__texto {
     margin:  3.125rem auto;
     text-align: center;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 16px;
 }
 
 .retratos .retratos__texto h1 {
     margin-bottom: 3.125rem;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 19px;
+    font-weight: bold;
 }
 
 .retratos .retratos__fotos {
@@ -394,7 +399,7 @@ input[type="button"]:hover {
 }
 
 .retratos .retratos__fotos .retratos__imagen img {
-    width: 385px;
+    width: 100%;
     padding: 0.625rem;
 }
 
@@ -404,7 +409,19 @@ input[type="button"]:hover {
 
 /* Contacto */
 
+.caja{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: 
+                         "texto       form"
+                         "texto       form    ";
+}
+
+
 .linea-contacto {
+
     font-size: 1.25rem;
     text-transform: uppercase;
     margin: 0 auto;
@@ -427,10 +444,10 @@ input[type="button"]:hover {
 
 
 .caja {
+    display: grid;
     position: relative;
     width: 100%;
     height: 41.188rem;
-    display: flex;
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
@@ -439,11 +456,12 @@ input[type="button"]:hover {
 
 
 .caja .caja__formulario {
-	width: 39%;
+	grid-area: form;
 	padding: 1.25rem;
 	background-color: #f0f8ff;
+	margin: 50px;
+    width: 75%;
 }
-
 .caja .caja__formulario input[type="text"],
 .caja .caja__formulario input[type="email"] {
     display: block;
@@ -488,12 +506,13 @@ textarea {
 
 
 .caja .caja__texto {
-    width: 38%;
+    grid-area: texto;
     height: 29.063rem;
-    position: relative;  
-    left: -31px;
-}
-    
+    left: 87px;
+    margin-left: 100px;
+    position: absolute;
+  }
+   
 
 
 
@@ -516,7 +535,6 @@ textarea {
     width: 100%;
     text-align: center;
     height: 25rem;
-    /* background-color: hsl(205, 52%, 15%); */
     color: #ffff;
     font-size: 0.8rem;  
     position: relative;
@@ -524,6 +542,8 @@ textarea {
     flex-direction: column;
     justify-content: center;
     background-image: linear-gradient(hsl(205, 52%,20%), hsl(205, 52%, 15%));
+    font-family: 'Cutive Mono', monospace;
+    
 }
 
 
@@ -533,6 +553,7 @@ textarea {
     font-size: 1rem;
     line-height: 2.5rem;
     margin-left: 2rem;
+    padding-left: 0;
 }
   
 
@@ -671,6 +692,25 @@ footer {
 
 
 /* MEDIA QUERIES */
+
+
+
+
+@media screen and (max-width: 1150px) {
+
+
+    /* Inicio contacto */
+    .caja .caja__texto img {
+     display: none;
+    }
+
+    .footerDos .footerDos__mapa {
+    display: none;
+    }
+
+    /* fin contacto */
+
+}
 
 
 
@@ -844,6 +884,19 @@ input[type="button"] {
 }
 
 /* FIN RETRATOS */
+
+
+/* INICIO CONTACTO */
+
+.linea-contacto {
+display: none;
+}
+
+/* FIN CONTACTO */
+
+
+
+
 }
 
 
@@ -1124,6 +1177,31 @@ input[type="button"] {
         text-align: justify;
         hyphens: auto;
     }
+
+      /* FIN RETRATOS */
+
+        /* INICIO CONTACTO */
+
+        .caja{
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, auto);
+            grid-template-areas: 
+                                 "texto       texto"
+                                 "form        form    ";
+        }
+
+        .caja .caja__texto {
+            display: none;
+        }
+
+        .caja .caja__formulario {
+            margin: 0 auto;
+        }
+
+            /* FIN CONTACTO */
+        
 
 }
 
