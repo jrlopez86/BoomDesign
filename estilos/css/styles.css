@@ -367,6 +367,16 @@ input[type="button"]:hover {
 
   /* Retratos */
 
+/* arreglo bootstrap */
+ol, ul {
+padding-left: 0;
+margin-bottom: 0rem;
+line-height: 1.2rem;
+font-family: 'Cutive Mono', monospace;
+}
+/* arreglo bootstrap */
+
+
 .retratos {
     position: relative;
     margin: 0 auto;
@@ -416,7 +426,7 @@ input[type="button"]:hover {
     grid-template-rows: repeat(2, auto);
     grid-template-areas: 
                          "texto       form"
-                         "texto       form    ";
+                         "texto       form";
 }
 
 
@@ -876,16 +886,6 @@ input[type="button"] {
 
 
 
-
-/* INICIO RETRATOS */
-
-.retratos .retratos__fotos .retratos__imagen img {
-	width: 281px;
-}
-
-/* FIN RETRATOS */
-
-
 /* INICIO CONTACTO */
 
 .linea-contacto {
@@ -1163,22 +1163,8 @@ display: none;
 
     /* FIN FOOD FOTOGRAPHY */
 
-    /* INICIO RETRATOS */
 
-    .retratos .retratos__fotos .retratos__imagen img {
-        width: 100%;
-    }
 
-    .retratos .retratos__texto h1 {
-        font-size: 0.9rem;
-    }
-
-    .retratos .retratos__texto p {
-        text-align: justify;
-        hyphens: auto;
-    }
-
-      /* FIN RETRATOS */
 
         /* INICIO CONTACTO */
 
