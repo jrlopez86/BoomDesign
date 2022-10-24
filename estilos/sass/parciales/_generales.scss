@@ -1,0 +1,12 @@
+@import "./var";
+
+:root{
+    font-family: $tipografia-general;
+    font-size: $fuente-normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

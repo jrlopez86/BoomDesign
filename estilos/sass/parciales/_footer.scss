@@ -1,0 +1,110 @@
+@import "./var";
+
+
+.footerDos {
+    width: 100%;
+    text-align: center;
+    height: 25rem;
+    color: #ffff;
+    font-size: 0.8rem;  
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: $color-fondo-footer;
+    font-family: $tipografia-general;
+    
+}
+
+
+.footerDos ul {
+    list-style-type: none;
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 2.5rem;
+    margin-left: 2rem;
+    padding-left: 0;
+}
+  
+
+.footerDos .footerDos__redes-sociales {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 1rem;
+}
+
+.footerDos .footerDos__redes-sociales .footerDos__icono {
+    margin: 0 0.313rem;
+    background-color: hsl(205, 52%, 17%);
+    width: 26px; 
+}
+
+.footerDos .footerDos__redes-sociales a {
+    margin: 0 4px;
+}
+
+
+.footerDos__sombra {
+    position: absolute;
+    box-shadow: 0px -3px 18px 0px #800080;
+}
+
+
+.footerDos .footerDos__mapa {
+    display: block;
+    position: absolute;
+    padding: 3rem;
+    right: 0rem;   
+}
+
+
+
+/* Footer del index */
+
+footer {
+    grid-area: footer;
+}
+
+.footer {         
+    position: relative;
+    width: 100%;
+    text-align: center;
+    height: 400px;
+    background-image: $color-fondo-footer;
+    color: #ffff;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+}
+
+.footer .footer__caja {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 64%;
+    height: 12.5rem;
+    top: 8rem;
+}
+
+.footer .footer__caja  .footer__valores {
+    width: 20%;
+    list-style: none; 
+}
+
+.footer .footer__caja  .footer__valores h2 {
+    margin-bottom: 1.25rem;
+    font-size: 1rem;
+    font-family: $tipografia-general;
+}
+
+.footer .footer__caja  .footer__valores p{
+
+    font-family: $tipografia-general;
+}
+
+.footer .footerDos__redes-sociales {
+    display: none;
+}
+
+/* Footer del index */
+

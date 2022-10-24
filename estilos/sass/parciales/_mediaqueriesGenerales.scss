@@ -1,0 +1,315 @@
+
+
+@media screen and (min-width: 320px) and (max-width: 990px)  {
+
+    /* INICIO INDEX */
+
+  .index{
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(5, auto);
+      grid-template-areas: "header     header      header"
+                           "main       main        main"
+                           "nosotros   nosotros    nosotros"
+                           "media      media       media"
+                           "footer     footer      footer";
+  }
+  
+  .cabecera__navegacionPC ul {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .cabecera {
+      height: auto;
+      display: flex;
+      flex-direction: column;
+  }
+
+  .cabecera .cabecera__redes-sociales .cabecera__icono {
+      display: none;
+  }
+
+  .cabecera__btn {
+      border: none;
+  }
+  
+  .cabecera__btn:focus {
+      box-shadow: none;
+  }
+  
+  
+  .cabecera__btn--top{
+      top: 20px;
+  }
+  
+  .cabecera__text{
+      text-align: center;
+  }
+  
+
+  .cabecera .cabecera__navegacionPC {
+      display: inline-block;
+      text-align: end;
+  }
+  .cabecera .cabecera__navegacionPC a {
+     margin: 10px auto;
+     display: flex;
+     justify-content: center;
+  }
+
+  .fondo .fondo__contenedor {
+      display: flex;
+      justify-content: center;
+      height: 548px;
+      background-position: inherit;
+        
+  }
+
+  .fondo .fondo__logo { 
+      bottom: 4rem;
+  }
+
+  .articulo__nosotros h1 {
+      text-align: center;
+      margin-top: 6rem;
+      width: 100%;
+  }
+
+  .articulo__nosotros p {
+      width: 90%;
+      text-align: center;
+      margin-top: 2rem;
+      line-height: 1.5rem;
+  }
+
+  .seccion .seccion__media video {
+      width: 100%;
+      display: flex;
+  }
+  
+
+  .footer {
+      height: 100px;
+  }
+
+  .footer .footer__caja {
+      height: 0px;
+      top: 0px;
+  }
+
+
+  .footer__valores {
+      display: none;
+  }
+
+  .cabecera .cabecera__redes-sociales .cabecera__icono {
+      display: none;
+  }
+
+  .footer .footerDos__redes-sociales {
+      display: flex;
+      margin-left: 1rem;
+      margin: 38px auto;
+  }
+  
+
+    /* FIN INDEX */
+
+    /* INICIO MODA */
+
+    .moda{
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(5, auto);
+      grid-template-areas:  
+                             "foto        foto"
+                             "titulo      titulo"
+                             "linea      linea"
+                             "foto2      foto2"  
+                             "titulo2    titulo2"  
+                            
+  }
+  
+
+
+  .cabecera .cabecera__navegacionPC .cabecera__navegacion--contacto {
+      background-color: hsl(27, 100%, 91%);
+      margin-top: -0.625rem;
+      margin: 10px 85px;
+  }
+
+  .main__contenedorDos {
+      margin: 10px 0px;
+  }
+
+  .main__contenedor img{
+      height: 100%;
+      padding: 2.5rem;
+      width: 100%;
+      box-shadow: none;
+  }
+
+ .main__contenedorDos img {
+      height: 100%;
+      width: 100%;
+      padding: 0px;
+      box-shadow: none;
+  }
+
+  .cabecera .cabecera__logo {
+      margin: 0.938rem auto;
+      position:static;
+  }
+
+  .main__nosotros {
+      width: 100%;
+      align-content: center;
+      grid-area: titulo;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
+
+  .main__nosotros p {
+      margin: 0 15px;
+      margin: 0 38px;
+      text-align: justify;
+      hyphens: auto;
+  }
+
+  .main__textoIzquierda {
+      margin: 0 17px;
+  }
+
+  .main__textoIzquierda p {
+      width: 84%;
+      text-align: justify;
+      hyphens: auto;
+      margin-bottom: 20px;
+
+  }
+
+
+  .main__textoIzquierda h1{
+      width: 100%;
+      margin: 10px auto;
+      text-align: center;
+      margin-bottom: 29px;
+  }
+
+  .main__textoIzquierda h1, .main__textoIzquierda p {
+      margin: 10px auto;
+      text-align: center;
+      margin-bottom: 29px;
+  }
+
+ 
+
+  
+
+  .footerDos ul {
+      display: none;
+  }
+
+  .footerDos .footerDos__redes-sociales {
+      display: flex;
+      margin: 0 auto;
+  }
+  
+  .footer .footerDos__redes-sociales .footerDos__icono {
+      margin: 0 0.313rem;
+      background-color: hsl(205, 52%, 17%);
+      width: 26px; 
+  }
+
+  .footerDos {
+      position: relative;
+      width: 100%;
+      text-align: center;
+      height: 100px;;
+      background-color: hsl(205, 52%, 15%);
+      color: #ffff;
+      font-size: 0.8rem;
+      display: flex;
+      justify-content: center;
+  }
+
+  /* FIN DE MODA */
+
+
+      
+
+
+  /* INICIO FOOD FOTOGRAPHY */
+
+
+
+  .fondoComida {
+      display: flex;
+      justify-content: end;
+  }
+
+
+
+  .fondoComida .fondoComida__texto {
+      width: 40%;
+      color: #ffffff;
+      margin-left: 200px;
+      display: flex;  
+  }
+
+  .fondoComida__texto h1,
+  .fondoComida__texto p {
+      display: none;
+      
+  }
+
+  input[type="button"] {
+      width: 90%;
+      margin: 0 auto;
+      position: absolute;
+      bottom: 16px;
+      left: 0px;
+      right: 0px;
+  }
+  
+
+
+  /* FIN FOOD FOTOGRAPHY */
+
+
+
+
+  /* INICIO CONTACTO */
+
+  .caja{
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, auto);
+      grid-template-areas: 
+                              "texto       texto"
+                              "form        form    ";
+  }
+
+  .linea-contacto {
+      display: none;
+      }
+
+  .caja .caja__texto {
+      display: none;
+  }
+
+  .caja .caja__formulario {
+      margin: 0 auto;
+  }
+
+      /* FIN CONTACTO */
+  
+
+}

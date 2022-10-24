@@ -1,0 +1,25 @@
+{
+  "name": "paquete_boom",
+  "version": "1.0.0",
+  "description": "Un paquete de SASS de coder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss estilos/sass/main.scss estilos/css/estilos.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrlopez86/boom.git"
+  },
+  "author": "Rafael Lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrlopez86/boom/issues"
+  },
+  "homepage": "https://github.com/jrlopez86/boom#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
