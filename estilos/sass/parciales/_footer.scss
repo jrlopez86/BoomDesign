@@ -13,52 +13,50 @@
     justify-content: center;
     background-image: $color-fondo-footer;
     font-family: $tipografia-general;
+
+        & ul {
+            list-style-type: none;
+            text-align: justify;
+            font-size: 1rem;
+            line-height: 2.5rem;
+            margin-left: 2rem;
+            padding-left: 0;
+        }
+
+        &__redes-sociales {
+            display: flex;
+            margin-top: 15px;
+            margin-left: 1rem;
+        }
+
+        &__icono {
+            margin: 0 0.313rem;
+            background-color: hsl(205, 52%, 17%);
+            width: 26px; 
+        }
+
+        &__redes-sociales a {
+            margin: 0 4px;
+        }
+
+        &__sombra {
+            position: absolute;
+            box-shadow: 0px -3px 18px 0px #800080;
+        }
+         
+        &__mapa {
+            display: block;
+            position: absolute;
+            padding: 3rem;
+            right: 0rem;   
+        }
+        
     
 }
 
 
-.footerDos ul {
-    list-style-type: none;
-    text-align: justify;
-    font-size: 1rem;
-    line-height: 2.5rem;
-    margin-left: 2rem;
-    padding-left: 0;
-}
+
   
-
-.footerDos .footerDos__redes-sociales {
-    display: flex;
-    margin-top: 15px;
-    margin-left: 1rem;
-}
-
-.footerDos .footerDos__redes-sociales .footerDos__icono {
-    margin: 0 0.313rem;
-    background-color: hsl(205, 52%, 17%);
-    width: 26px; 
-}
-
-.footerDos .footerDos__redes-sociales a {
-    margin: 0 4px;
-}
-
-
-.footerDos__sombra {
-    position: absolute;
-    box-shadow: 0px -3px 18px 0px #800080;
-}
-
-
-.footerDos .footerDos__mapa {
-    display: block;
-    position: absolute;
-    padding: 3rem;
-    right: 0rem;   
-}
-
-
-
 /* Footer del index */
 
 footer {
@@ -75,31 +73,32 @@ footer {
     font-size: 0.8rem;
     display: flex;
     justify-content: center;
-}
 
-.footer .footer__caja {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    width: 64%;
-    height: 12.5rem;
-    top: 8rem;
-}
-
-.footer .footer__caja  .footer__valores {
-    width: 20%;
-    list-style: none; 
-}
-
-.footer .footer__caja  .footer__valores h2 {
-    margin-bottom: 1.25rem;
-    font-size: 1rem;
-    font-family: $tipografia-general;
-}
-
-.footer .footer__caja  .footer__valores p{
-
-    font-family: $tipografia-general;
+    &__caja {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        width: 64%;
+        height: 12.5rem;
+        top: 8rem;
+    }
+    
+    &__valores {
+        width: 20%;
+        list-style: none; 
+    }
+    
+    &__valores h2 {
+        margin-bottom: 1.25rem;
+        font-size: 1rem;
+        font-family: $tipografia-general;
+    }
+    
+    &__valores p{
+    
+        font-family: $tipografia-general;
+    }
+    
 }
 
 .footer .footerDos__redes-sociales {

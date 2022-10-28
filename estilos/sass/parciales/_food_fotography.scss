@@ -14,22 +14,24 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+        &__texto {
+        width: 40%;
+        color: #ffffff;
+        margin-left: 200px;
+        text-align: justify;
+        hyphens: auto;
+        font-family: $tipografia-general;
+        }
+
+        &__texto h1 {
+            margin-bottom: 1.25rem;
+            font-size: 1rem;
+        }
+
+
 }
 
-.fondoComida .fondoComida__texto {
-    width: 40%;
-    color: #ffffff;
-    margin-left: 200px;
-    text-align: justify;
-    hyphens: auto;
-    font-family: $tipografia-general;
-}
-
-
-.fondoComida .fondoComida__texto h1 {
-    margin-bottom: 1.25rem;
-    font-size: 1rem;
-}
 
 input[type="button"] {
     width: 7.5rem;
@@ -42,10 +44,15 @@ input[type="button"] {
     box-shadow: 0px 0px 52px 11px #800080;
     letter-spacing: 0.063rem;
     transition: all .4s ease;
+
+        &:hover {
+            background-color: hsl(300, 100%, 50%);
+            box-shadow: 0px 0px 52px 35px #800080;    
+        }
+
+
+
+
 }
 
-input[type="button"]:hover {
-    background-color: hsl(300, 100%, 50%);
-    box-shadow: 0px 0px 52px 35px #800080;
 
-}
