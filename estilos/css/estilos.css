@@ -91,7 +91,7 @@ header {
   .index .fondo__logo {
     position: absolute;
     bottom: 8rem;
-    right: 28px; }
+    margin-right: 28px; }
   .index .fondo__logo img {
     width: 180px; }
 
@@ -495,13 +495,13 @@ footer {
       top: 20px; }
     .cabecera__text, .cabecera__navegacionPC a {
       text-align: center; }
-  .index .fondo .fondo__contenedor {
+  .index .fondo__contenedor {
     display: flex;
     justify-content: center;
     height: 548px;
     background-position: inherit; }
-    .index .fondo .fondo__contenedor__logo {
-      bottom: 4rem; }
+  .index .fondo__logo {
+    margin-right: 0px; }
   .index .articulo__nosotros h1 {
     text-align: center;
     margin-top: 6rem;

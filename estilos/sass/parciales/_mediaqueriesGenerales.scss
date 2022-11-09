@@ -62,18 +62,24 @@
     
 }
 
-  
-  .index .fondo .fondo__contenedor {
-      display: flex;
-      justify-content: center;
-      height: 548px;
-      background-position: inherit;
 
-        &__logo { 
-            bottom: 4rem;
+ .index .fondo{
+
+        &__contenedor {
+            display: flex;
+            justify-content: center;
+            height: 548px;
+            background-position: inherit;
+
         }
-      
-  }
+    
+
+        &__logo {
+            margin-right: 0px;
+        }
+}
+
+
 
 
  .index .articulo {
