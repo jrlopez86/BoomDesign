@@ -90,9 +90,10 @@ header {
     background-attachment: fixed; }
   .index .fondo__logo {
     position: absolute;
-    bottom: 2rem; }
+    bottom: 8rem;
+    right: 28px; }
   .index .fondo__logo img {
-    width: 250px; }
+    width: 180px; }
 
 /* quienes somos */
 .index .articulo {
