@@ -7,7 +7,11 @@
     }
 
     .footerDos .footerDos__mapa {
-    display: none;
+        display: flex;
+        position: absolute;
+        padding: 3rem;
+        
+    
     }
 
     /* fin contacto */

@@ -23,12 +23,14 @@
                 text-align: center;
                 @include tipografia;
                 color: $color-texto;
+                width: 50%;
             }
 
             &__texto h1 {
                 margin-bottom: 3.125rem;
                 @include tipografia;
                 font-weight: bold;
+                font-size: 1.2rem;
             }
 
             &__fotos {

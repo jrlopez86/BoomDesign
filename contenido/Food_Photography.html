@@ -7,6 +7,7 @@
         <meta name="keywords" content="creadores de contenido, fotografía gastronómica, contenido digital"/>
         <title>Food Photography | BOOM</title>
         <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
         <link rel="stylesheet" href="../estilos/css/estilos.css">
         <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet"> 
@@ -17,7 +18,7 @@
             <header>
                     <div class="cabecera">
                         <div class="cabecera__logo">
-                            <a href="../index.html"><img src="../img/logoCabecera.png" alt="logo Empresa"></a>      
+                            <a href="../index.html"><img src="../img/boocc.png" alt="logo Empresa"></a>      
                         </div>
                         <nav class="cabecera__navegacionPC">
                             <ul>
@@ -35,16 +36,70 @@
                     <section class="fondoComida">
                         <article class="fondoComida__texto">
                                     <h1>Fotografía gastronómica</h1>
-                                    <p class="fondoComida__parrafo">El objetivo de la fotografía gastronómica, mediante el estilismo culinario, es utilizar la vista para captar el interés por la comida y conectar este sentido a otros como el gusto o incluso el olfato y el tacto. La intención es conseguir en una foto “el sabor” y la textura de los alimentos.</p>     
-                                    <input type="button" value="Conocer mas">       
+                                    <p id="prueba5" class="fondoComida__parrafo">El objetivo de la fotografía gastronómica, mediante el estilismo culinario, es utilizar la vista para captar el interés por la comida y conectar este sentido a otros como el gusto o incluso el olfato y el tacto. La intención es conseguir en una foto “el sabor” y la textura de los alimentos.</p>    
+                                   <a  href="#carouselExampleIndicators"><input class="btn__fotos" type="button" value="Ver fotos"></a>                
                         </article>  
                     </section>
+                        <div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="true">
+                            <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9" aria-label="Slide 10"></button>
+                            </div>
+                            <div class="carousel-inner carousel--size">
+                            <div class="carousel-item active">
+                                <img src="../img/pan.jpg" class="d-block w-100 carousel--fotos" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/pan.jpg" class="d-block w-100 carousel--fotos" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/pan.jpg" class="d-block w-100 carousel--fotos" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/pan.jpg" class="d-block w-100 carousel--fotos" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/pan.jpg" class="d-block w-100 carousel--fotos" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/pan.jpg" class="d-block w-100 carousel--fotos" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/pan.jpg" class="d-block w-100 carousel--fotos" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/pan.jpg" class="d-block w-100 carousel--fotos" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/pan.jpg" class="d-block w-100 carousel--fotos" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/pan.jpg" class="d-block w-100 carousel--fotos" alt="...">
+                            </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon carousel__background" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon carousel__background" aria-hidden="true"></span>
+                            <span class=" visually-hidden">Next</span>
+                            </button>
+                        </div>
                 </main>
 
                 
                     <!-- Pie de pagina -->
                 <footer>
-                    <div class="footerDos footerDos__sombra">
+                    <div class="footerDos">
                         <ul>
                             <li><strong>BOOM</strong></li>
                             <li>Creadores de contenido</li>
@@ -54,17 +109,23 @@
                         </ul>
                         <div class="footerDos__redes-sociales">
                             <a href="#">
-                                <img class="footerDos__icono insta" src="https://img.icons8.com/office/344/instagram-new.png" alt="instagram">
+                                <img class="footerDos__icono insta" src="../img/instagram.svg" alt="instagram">
                             </a>
                             <a href="#">
-                                <img class="footerDos__icono twitter" src="https://img.icons8.com/color/344/twitter--v1.png" alt="facebook">
+                                <img class="footerDos__icono twitter" src="../img/twitter.svg" alt="facebook">
                             </a>
                             <a href="#">
-                                <img class="footerDos__icono face" src="https://img.icons8.com/color/344/facebook-new.png" alt="twitter">
+                                <img class="footerDos__icono face" src="../img/facebook.svg" alt="twitter">
                             </a>
                         </div>
                     </div>
                  </footer>
                 
+
+
+                 <script type="module" src="https://unpkg.com/rough-notation?module"></script>
+                 <script type="module" src="../index.js"></script>
+                  <!-- script de bootstrap -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
         </body>
 </html>

@@ -22,15 +22,13 @@
 
         &__contenedor img,
         &__contenedorDos img {
-            height: 37.5rem;
-            padding: 2.5rem;
+            height: 36.5rem;
+            padding: 0.5rem;
             width: 100%;
             box-shadow: 0px 9px 32px -1px rgba(0,0,0,0.5);
         }
 
-        &__contenedorDos img  {
-            background-color: hsl(34, 63%, 96%);
-        }
+      
 
         &__nosotros {
             width: 70%;
@@ -59,13 +57,13 @@
             grid-area: foto2;
             display: flex;
             justify-content: center;
-            margin: 50px 0px;
+            
             
         }
 
         &__textoIzquierda h1,
         &__nosotros h1 {
-            font-size: 1rem;
+            font-size: 1.2rem;
             margin-bottom: 40px;
         }
 

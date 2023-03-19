@@ -70,7 +70,9 @@ header {
             margin-top: -0.625rem;
             margin-right: 0.625rem;
             transition: all .4s ease;
+            border-radius: 20px;
         }
+
         
         &__navegacion--contacto:hover {
             background-color: hsl(27, 100%, 85%);
@@ -125,12 +127,12 @@ header {
 
         &__logo {
             position: absolute;
-            bottom: 8rem;  
+            bottom: 7rem;
             margin-right: 28px;
         }
         
         &__logo img {
-            width: 180px;
+            width: 233px;
         }
     
 
@@ -165,6 +167,9 @@ header {
             margin-bottom: 1.625rem;
             margin-top: 7.813rem;
             @include tipografia;
+            font-size: 1.2rem;
+            font-weight: bold;
+
         }
         
         &__nosotros p {
